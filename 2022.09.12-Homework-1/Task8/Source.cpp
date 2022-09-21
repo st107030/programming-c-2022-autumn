@@ -1,14 +1,18 @@
 #include <iostream>
-using namespace std;
-int main()
+int main(int argc, char* argv[])
 {
-	int a, b, c, a1, b1, c1;
-	cin >> a;
-	cin >> b;
-	cin >> c;
-	cin >> a1;
-	cin >> b1;
-	cin >> c1;
-	cout << (a1 - a) * 3600 + (b1 - b) * 60 + (c1 - c);
-	return 0;
+	int a = 0;
+	int b = 0;
+	int c = 0;
+	int a1 = 0;
+	int b1 = 0;
+	int c1 = 0;
+	std::cin >> a;
+	std::cin >> b;
+	std::cin >> c;
+	std::cin >> a1;
+	std::cin >> b1;
+	std::cin >> c1;
+	std::cout << (a1 - a) * 3600 + (b1 - b) * 60 + (c1 - c);
+	return EXIT_SUCCESS;
 }

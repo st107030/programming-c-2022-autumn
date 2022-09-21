@@ -1,11 +1,10 @@
 #include <iostream>
-using namespace std;
-int main()
+int main(int argc, char* argv[])
 {
-	int n;
-	int k;
-	cin >> n;
+	int n = 0;
+	int k = 0;
+	std::cin >> n;
 	k = n % 2;
-	cout << n + 2 - (1 * k);
-	return 0;
+	std::cout << n + 2 - (1 * k);
+	return EXIT_SUCCESS;
 }

@@ -1,10 +1,9 @@
 #include <iostream>
-using namespace std;
-int main()
+int main(int argc, char* argv[])
 {
-	int n;
-	cin >> n;
-	cout << "The next number for number " << n << " is " << n + 1 << "." << endl;
-	cout << "The previous number for number " << n << " is " << n - 1 << "." << endl;
-	return 0;
+	int n = 0;
+	std::cin >> n;
+	std::cout << "The next number for number " << n << " is " << n + 1 << "." << std::endl;
+	std::cout << "The previous number for number " << n << " is " << n - 1 << "." << std::endl;
+	return EXIT_SUCCESS;
 }

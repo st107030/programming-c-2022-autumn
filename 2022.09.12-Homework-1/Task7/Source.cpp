@@ -1,13 +1,14 @@
 #include <iostream>
-using namespace std;
-int main()
+int main(int argc, char* argv[])
 {
-	int a,b,c;
-	cin >> a;
-	cin >> b;
+	int a = 0;
+	int b = 0;
+	int c = 0;
+	std::cin >> a;
+	std::cin >> b;
 	c = a;
 	a = b;
 	b = c;
-	cout << a << " " << b;
-	return 0;
+	std::cout << a << " " << b;
+	return EXIT_SUCCESS;
 }

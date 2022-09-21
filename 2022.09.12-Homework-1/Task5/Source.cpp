@@ -1,9 +1,8 @@
 #include <iostream>
-using namespace std;
-int main()
+int main(int argc, char* argv[])
 {
-	int n;
-	cin >> n;
-	cout << (n % 10 + n / 10 % 10 + n / 100);
-	return 0;
+	int n = 0;
+	std::cin >> n;
+	std::cout << (n % 10 + n / 10 % 10 + n / 100);
+	return EXIT_SUCCESS;
 }
