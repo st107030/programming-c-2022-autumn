@@ -1,4 +1,5 @@
 #include <iostream>
+
 int main(int argc, char* argv[])
 {
 	int v = 0;
@@ -8,8 +9,7 @@ int main(int argc, char* argv[])
 	std::cin >> t;
 	n = v * t;
 	int l = 0;
-	l = (std::abs(n) / 109) + 1;
-		//המנמדא 109 ךל
-	std::cout << ((109 * l + n) % 109);
+	l = n % 109;
+	std::cout << (l + 109) % 109;
 	return EXIT_SUCCESS;
 }
