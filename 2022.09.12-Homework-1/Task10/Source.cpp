@@ -8,6 +8,6 @@ int main(int argc, char* argv[])
 	std::cin >> b;
 	int k = a / b;
 	int l = b / a;
-	std::cout << a + b - (a * k + b * l) / (k + l);
+	std::cout << (a * k + b * l) / (k + l);
 	return EXIT_SUCCESS;
 }
