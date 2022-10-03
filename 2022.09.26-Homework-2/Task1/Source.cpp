@@ -6,97 +6,92 @@ int main(int args, char* argv[])
 	std::cin >> n;
 	switch (n / 100)
 	{
-		case 0: break;
 		case 1:
 		{
-			std::cout << "Сто ";
+			std::cout << "sto ";
 			break;
 		}
 		case 2:
 		{
-			std::cout << "Двести ";
+			std::cout << "dvesti ";
 			break;
 		}
 		case 3:
 		{
-			std::cout << "Триста ";
+			std::cout << "trista ";
 			break;
 		}
 		case 4:
 		{
-			std::cout << "Четыреста ";
+			std::cout << "chetyresta ";
 			break;
 		}
 		case 5:
 		{
-			std::cout << "Пятьсот ";
+			std::cout << "pyatsot ";
 			break;
 		}
 		case 6:
 		{
-			std::cout << "Шестьсот ";
+			std::cout << "shestsot ";
 			break;
 		}
 		case 7:
 		{
-			std::cout << "Семьсот ";
+			std::cout << "semsot ";
 			break;
 		}
 		case 8:
 		{
-			std::cout << "Восемьсот ";
+			std::cout << "vosensot ";
 			break;
 		}
 		case 9:
 		{
-			std::cout << "Девятьсот ";
+			std::cout << "devyatsot ";
 			break;
 		}
 	}
 	switch (n / 10 % 10)
 		{
-		case 0:
-		{
-			break;
-		}
 		case 2:
 		{
-			std::cout << "двадцать ";
+			std::cout << "dvadtsat' ";
 			break;
 		}
 		case 3:
 		{
-			std::cout << "тридцать ";
+			std::cout << "tridsat' ";
 			break;
 		}
 		case 4:
 		{
-			std::cout << "сорок ";
+			std::cout << "sorok ";
 			break;
 		}
 		case 5:
 		{
-			std::cout << "пятьдесят ";
+			std::cout << "pyatdesyat ";
 			break;
 		}
 		case 6:
 		{
-			std::cout << "шестьдесят ";
+			std::cout << "shestdesyat ";
 			break;
 		}
 		case 7:
 		{
-			std::cout << "семьдесят ";
+			std::cout << "semdesyat ";
 			break;
 		}
 		case 8:
 		{
-			std::cout << "восемьдесят ";
+			std::cout << "vosemdesyat ";
 			break;
 		}
 		case 9:
 		{
-			std::cout << "девяносто ";
+			std::cout << "devyanosto ";
 			break;
 		}
 		case 1:
@@ -105,52 +100,52 @@ int main(int args, char* argv[])
 			{
 			case 0:
 			{
-				std::cout << "десять бананов";
+				std::cout << "desyat bananov";
 				return EXIT_SUCCESS;
 			}
 			case 1:
 			{
-				std::cout << "одиннадцать бананов";
+				std::cout << "odinnadtsat' bananov";
 				return EXIT_SUCCESS;
 			}
 			case 2:
 			{
-				std::cout << "двенадать бананов";
+				std::cout << "dvenadtsat' bananov";
 				return EXIT_SUCCESS;
 			}
 			case 3:
 			{
-				std::cout << "тринадцать бананов";
+				std::cout << "trinadtsat' bananov";
 				return EXIT_SUCCESS;
 			}
 			case 4:
 			{
-				std::cout << "четырнадцать бананов";
+				std::cout << "chetyrnadtsat' bananov";
 				return EXIT_SUCCESS;
 			}
 			case 5:
 			{
-				std::cout << "пятнадцать бананов";
+				std::cout << "pyatnadtsat' bananov";
 				return EXIT_SUCCESS;
 			}
 			case 6:
 			{
-				std::cout << "шестнадцать бананов";
+				std::cout << "shestnadtsat' bananov";
 				return EXIT_SUCCESS;
 			}
 			case 7:
 			{
-				std::cout << "семнадцать бананов";
+				std::cout << "semnadtsat' bananov";
 				return EXIT_SUCCESS;
 			}
 			case 8:
 			{
-				std::cout << "восемнадцать бананов";
+				std::cout << "vosemnadtsat' bananov";
 				return EXIT_SUCCESS;
 			}
 			case 9:
 			{
-				std::cout << "девятнацать бананов";
+				std::cout << "devyatnadtsat' bananov";
 				return EXIT_SUCCESS;
 			}
 			}
@@ -161,58 +156,58 @@ int main(int args, char* argv[])
 		{
 		case 0:
 		{
-			std::cout << "бананов";
+			std::cout << "bananov";
 			break;
 		}
 		case 1:
 		{
-			std::cout << "один банан";
+			std::cout << "odin banan";
 			break;
 		}
 		case 2:
 		{
-			std::cout << "два банана";
+			std::cout << "dva banana";
 			break;
 		}
 		case 3:
 		{
-			std::cout << "три банана";
+			std::cout << "tri banana";
 			break;
 		}
 		case 4:
 		{
-			std::cout << "четыре банана";
+			std::cout << "chetyre banana";
 			break;
 		}
 		case 5:
 		{
-			std::cout << "пять бананов";
+			std::cout << "pyat' bananov";
 			break;
 		}
 		case 6:
 		{
-			std::cout << "шесть бананов";
+			std::cout << "shest' bananov";
 			break;
 		}
 		case 7:
 		{
-			std::cout << "семь бананов";
+			std::cout << "sem' bananov";
 			break;
 		}
 		case 8:
 		{
-			std::cout << "восемь бананов";
+			std::cout << "vosem' bananov";
 			break;
 		}
 		case 9:
 		{
-			std::cout << "девять бананов";
+			std::cout << "devyat' bananov";
 			break;
 		}
 		}
 	if (n == 0)
 	{
-		std::cout << "ноль бананов";
+		std::cout << "nol' bananov";
 	}
 	return EXIT_SUCCESS;
 }
