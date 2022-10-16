@@ -13,4 +13,5 @@ int main(int args, char* argv[])
 		}
 	}
 	std::cout << counter;
+	return EXIT_SUCCESS;
 }

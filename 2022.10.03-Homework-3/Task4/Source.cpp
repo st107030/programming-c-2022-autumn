@@ -41,4 +41,5 @@ int main(int args, char* argv[])
 			break;
 		}
 	} while (c <= n);
+	return EXIT_SUCCESS;
 }

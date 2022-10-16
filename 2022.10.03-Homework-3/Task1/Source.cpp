@@ -11,4 +11,5 @@ int main(int args, char* argv[])
 		std::cout << a << std::endl;
 		a++;
 	}
+	return EXIT_SUCCESS;
 }
