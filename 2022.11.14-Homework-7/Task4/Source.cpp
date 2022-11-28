@@ -6,14 +6,12 @@ int main(int argc, char* argv[])
 	std::cin >> n;
 	int m = 0; //столбцы
 	std::cin >> m;
-	//создание самого массива на нужное количество строк
 	int** arr = (int**)malloc(n * sizeof(int*));
-	//в каждой строке нужное кол-во столбцов
 	for (int i = 0; i < n; ++i)
 	{
 		*(arr + i) = (int*)malloc(m * sizeof(int));
 	}
-	int sum = 0;
+	
 	for (int i = 0; i < n; ++i)
 	{
 		for (int j = 0; j < m; ++j)
