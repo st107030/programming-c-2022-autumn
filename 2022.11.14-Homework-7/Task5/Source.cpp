@@ -6,7 +6,6 @@ int main(int argc, char* argv[])
 	std::cin >> n;
 	int m = 0;
 	std::cin >> m;
-	sum - 9;
 	int** arr = (int**)malloc(n * sizeof(int*));
 	for (int i = 0; i < n; ++i)
 	{
