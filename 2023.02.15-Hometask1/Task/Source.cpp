@@ -40,8 +40,8 @@ void ElderAnimal(Animal& an)
 
 int main(int argc, char* argv[])
 {
-	Animal Check;
-	ElderAnimal(Check);
-	printAnimal(Check);
+	Animal check;
+	ElderAnimal(check);
+	printAnimal(check);
 	return EXIT_SUCCESS;
 }
