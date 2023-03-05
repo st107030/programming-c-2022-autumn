@@ -47,7 +47,7 @@ void Animal::Settings()
 void Animal::printInfo()
 {
 	std::cout << "Name: " << name << std::endl;
-	switch (type)
+	switch (type) //type -> area
 	{
 		case 0: 
 		{

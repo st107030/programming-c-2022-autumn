@@ -63,5 +63,5 @@ public:
 	int getAge(); //prints age
 	void setAge(int age); //age
 	void elder(); //age + 1
-	Habitat getHabitat();
+	Habitat getHabitat(); //prints area
 };
